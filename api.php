@@ -30,7 +30,7 @@ try{
         'utm_term'		=> $_GET['utm_term'] ?? null,
         'utm_content'	=> $_GET['utm_content'] ?? null,
 
-        'sub_id'		=> $_GET['sub_id'] ?? null,
+        'sub_id'		=> $_POST['sub_id'] ?? null,
         'sub_id_1'		=> $_GET['sub_id_1'] ?? null,
         'sub_id_2'		=> $_GET['sub_id_2'] ?? null,
         'sub_id_3'		=> $_GET['sub_id_3'] ?? null,
