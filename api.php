@@ -38,7 +38,7 @@ try{
     ));
 
     if( $lead ){
-        header('Location: success.html?id='.$lead->id);
+        header('Location: https://heathychoco.github.io/success.html?id='.$lead->id);
     }
 
 }catch (Exception $e) {
